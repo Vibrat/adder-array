@@ -1,0 +1,43 @@
+/*
+Given two numbers that are represented as arrays of their digits, write a function that returns the sum of the two numbers.
+Each number is represented by an array of integers from 0 to 9, with the first element being the most significant digit of a number and the last element being the least significant digit.
+Note: Try to solve this task using only addition between digits.
+
+Example
+
+- For a = [1, 0] and b = [5], the output should be integerAdder(a, b) = [1, 5];
+- For a = [2, 6] and b = [3, 4], the output should be integerAdder(a, b) = [6, 0].
+
+Consider the following conditions:
+
+Input:
+
+- array.integer a
+  Guaranteed constraints: 1 ≤ a.length ≤ 50, 0 ≤ a[i] ≤ 9.
+- array.integer b
+  Guaranteed constraints: 1 ≤ b.length ≤ 50, 0 ≤ b[i] ≤ 9.
+
+Output:
+
+- array.integer
+  - The result of adding a and b together
+  - Each position can contain only digits (0-9)
+  
+let a = [1,2,3,9,3,0,4,0]
+let b = [0,2,3,4,5,7,8,9,0]
+35850930
+
+let a = [1,1,1,1,5,6]
+let b = [1,1,1,4,5,6]
+222612
+
+let a = [9]
+let b = [1,1,1,1,1,2,1,0,1,1,1]
+11111210120
+
+let a = [1,2,2,3,4]
+let b = [2,2,1]
+12455
+
+
+ */
