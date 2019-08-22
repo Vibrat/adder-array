@@ -1,0 +1,5 @@
+// Write a method that for a given input string, reverse all the 
+// characters inside parentheses. Consider nested parentheses.
+//
+// "(bar)"       => "rab"
+// "foo(bar)baz" => "foorabbaz"
